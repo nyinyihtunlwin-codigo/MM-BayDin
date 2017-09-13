@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#512da8"
+    tools:context="nyinyihtunlwin.projects.baydinsayar.Welcome" >
+
+    <ImageView
+        android:id="@+id/imVid"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/zodiac" />
+
+    <View
+        android:id="@+id/viewId"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imVid"
+        android:layout_centerHorizontal="true"
+        android:background="#f0f4c3" />
+
+    <TextView
+        android:id="@+id/welcomeTv"
+        style="@style/welcome_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewId"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/welcome_text" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Version 1.0"
+        android:textColor="#fff"
+        android:textSize="12dp" />
+
+</RelativeLayout>

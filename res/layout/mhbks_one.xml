@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef6c00"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#512da8"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnBackOne"
+            style="@style/btn_text_style"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/backkey_back_one"
+            android:text="ေရွ႕သို႕"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/titleIdOne"
+            style="@style/btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btnTwo_text"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ef6c00"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/btn_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="@string/select_text"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSelectOne"
+            style="@style/btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_back_three"
+            android:gravity="center"
+            android:text="@string/select_btn_text"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/beforetvOne"
+        style="@style/btn_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:textSize="16sp" />
+       <TextView
+        android:id="@+id/mmtkr_ks"
+        style="@style/btn_text_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:weightSum="6" >
+
+        <TextView
+            android:id="@+id/dayN"
+            style="@style/btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="ေမြးနံ   :   "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/dayNameOne"
+            style="@style/btn_text_style"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnCalculateKS"
+            style="@style/btn_text_style"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:background="@drawable/calculate_back"
+            android:text="@string/calcu_btn_text"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/showTvOneKS"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/result_back"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:id="@+id/scrollIdKS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:background="#00796b"
+        android:padding="5dp"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/showTvTwoKS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="15sp" />
+    </ScrollView>
+
+</LinearLayout>
